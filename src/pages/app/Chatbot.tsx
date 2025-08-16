@@ -55,6 +55,17 @@ export default function ChatbotPage() {
         <h1 className="text-xl font-semibold">Malawi Tourism Chatbot</h1>
       </div>
 
+      
+      <Card className="bg-gradient-to-r from-accent/20 to-primary/10 mt-4">
+        <CardContent className="p-4">
+          <h3 className="font-medium">Need Help?</h3>
+          <p className="text-sm text-muted-foreground">
+            Our chatbot is here to answer all your questions about Malawi tourism.
+          </p>
+        </CardContent>
+      </Card>
+
+      
       <Card className="hover:shadow-md transition-shadow">
         <CardContent className="p-4">
           <ScrollArea className="h-[400px] w-full pr-4">
@@ -81,14 +92,7 @@ export default function ChatbotPage() {
         </CardContent>
       </Card>
 
-      <Card className="bg-gradient-to-r from-accent/20 to-primary/10 mt-4">
-        <CardContent className="p-4">
-          <h3 className="font-medium">Need Help?</h3>
-          <p className="text-sm text-muted-foreground">
-            Our chatbot is here to answer all your questions about Malawi tourism.
-          </p>
-        </CardContent>
-      </Card>
+      
     </div>
   );
 }
