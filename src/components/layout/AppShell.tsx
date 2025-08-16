@@ -11,6 +11,8 @@ const navItems = [
   { to: "/app/marketing", label: "Marketing", Icon: Megaphone },
   { to: "/app/updates", label: "Updates", Icon: Radio },
   { to: "/app/settings", label: "Settings", Icon: Settings },
+  { to: "/app/chatbot", label: "Chatbot", Icon: robot },
+  
 ];
 
 export default function AppShell() {
