@@ -1,5 +1,5 @@
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
-import { Building2, BookOpenText, GraduationCap, Megaphone, Radio, Settings } from "lucide-react";
+import { Building2, BookOpenText, GraduationCap, Megaphone, Radio, Settings, Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useEffect } from "react";
@@ -11,7 +11,7 @@ const navItems = [
   { to: "/app/marketing", label: "Marketing", Icon: Megaphone },
   { to: "/app/updates", label: "Updates", Icon: Radio },
   { to: "/app/settings", label: "Settings", Icon: Settings },
-  { to: "/app/chatbot", label: "Chatbot", Icon: robot },
+  { to: "/app/chatbot", label: "Chatbot", Icon: Bot },
   
 ];
 
