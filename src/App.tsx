@@ -15,6 +15,8 @@ import TrainingPage from "./pages/app/Training";
 import MarketingPage from "./pages/app/Marketing";
 import UpdatesPage from "./pages/app/Updates";
 import SettingsPage from "./pages/app/Settings";
+import ChatbotPage from "./pages/app/Chatbot";
+
 
 const queryClient = new QueryClient();
 
@@ -37,6 +39,7 @@ const App = () => (
             <Route path="marketing" element={<MarketingPage />} />
             <Route path="updates" element={<UpdatesPage />} />
             <Route path="settings" element={<SettingsPage />} />
+            <Route path="chatbot" element={<ChatbotPage />} />
           </Route>
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
